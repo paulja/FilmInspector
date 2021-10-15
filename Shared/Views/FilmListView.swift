@@ -66,7 +66,7 @@ struct FilmListView: View {
             }
             .padding(.top)
         }
-        .listStyle(InsetGroupedListStyle())
+        .listStyle(PlainListStyle())
     }
 
     var body: some View {
